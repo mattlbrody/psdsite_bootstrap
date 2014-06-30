@@ -2,5 +2,29 @@
 	background: linear-gradient(rgba(13, 52, 127, 0.85), rgba(13, 52, 127, 0.85)), url('../img/background.jpg');
 	background-size: 1450px 821px;
 	height:500px;
-	
+	color:white;
+}
+.yellow {
+	color: #fdbc25;
+}
+.btn-yellow {
+	background-color: #fdbc25;
+	color: #d33920;
+	border: 2px solid #041c38;
+}
+.btn-blue {
+	background-color: #20609a;
+	border: 2px solid #20609a;
+	color: white;
+}
+.sign-up {
+	border-radius: 100px;
+}
+.email-input {
+	background-color: #041c38;
+	border: 0px solid black;
+	color: white;
+	border-radius: 2px;
+	width: 200px;
+	height: 33px;
 }

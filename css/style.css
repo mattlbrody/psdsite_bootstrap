@@ -1,3 +1,6 @@
 .quad {
-	background-image: url(/img/background.jpg);
+	background: linear-gradient(rgba(13, 52, 127, 0.85), rgba(13, 52, 127, 0.85)), url('../img/background.jpg');
+	background-size: 1450px 821px;
+	height:500px;
+	
 }

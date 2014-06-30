@@ -1,3 +1,47 @@
+* {
+  font-family: 'Quicksand', sans-serif; 
+  color:white;
+}
+.navbar .nav li a{
+	color:white;
+}
+.navbar .container a:hover {
+	background-color: transparent;
+}
+.navbar-brand {
+	color:white;
+	line-height: 50px;
+}
+.navbar-toggle {
+	border: 1px solid #fdbc25;
+	background-color: #fdbc25;
+}
+.wrd {
+    padding-top: 5px !important;
+}
+li {
+    text-align: center;
+}
+.pushleft {
+	padding-left:30px;
+}
+.align {
+	line-height: 50px;
+	padding-right: 15px;
+	margin-left:0px;
+}
+.valign {
+	margin-top:14px;
+	padding-left:90px;
+	padding-right: 0px;
+}
+.valign2 {
+	margin-top:25px;
+}
+.signupalign {
+	position:relative;
+	top:-10px;
+}
 .quad {
 	background: linear-gradient(rgba(13, 52, 127, 0.85), rgba(13, 52, 127, 0.85)), url('../img/background.jpg');
 	background-size: 1450px 821px;
@@ -11,6 +55,7 @@
 	background-color: #fdbc25;
 	color: #d33920;
 	border: 2px solid #041c38;
+	height: 30px;
 }
 .btn-blue {
 	background-color: #20609a;

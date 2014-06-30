@@ -2,6 +2,12 @@
   font-family: 'Quicksand', sans-serif; 
   color:white;
 }
+.quad {
+	background: linear-gradient(rgba(13, 52, 127, 0.85), rgba(13, 52, 127, 0.85)), url('../img/background.jpg');
+	background-size: 1450px 821px;
+	height:560px;
+	color:white;
+}
 .navbar .nav li a{
 	color:white;
 }
@@ -30,6 +36,9 @@ li {
 	padding-right: 15px;
 	margin-left:0px;
 }
+.align2 {
+	line-height: 10px;
+}
 .valign {
 	margin-top:14px;
 	padding-left:90px;
@@ -41,11 +50,34 @@ li {
 .signupalign {
 	position:relative;
 	top:-10px;
+	color: #d33920;
+	font-weight:bold;
 }
-.quad {
-	background: linear-gradient(rgba(13, 52, 127, 0.85), rgba(13, 52, 127, 0.85)), url('../img/background.jpg');
-	background-size: 1450px 821px;
-	height:500px;
+.search-button {
+	width: 216px;
+	height: 40px;
+	background-color: #20609a;
+	color: white;
+	border: 0px solid #20609a;
+	border-radius: 5px 0px 0px 5px;
+	line-height: 10px;
+	padding: 5px; }
+.arrow {
+	width: 0;
+	height: 0;
+	border-bottom: 20px solid transparent;
+	/* left arrow slant */
+	border-top: 20px solid transparent;
+	/* right arrow slant */
+	border-left: 20px solid #20609a;
+	/* bottom, add background color here */
+	font-size: 0;
+	line-height: 0;
+	position: relative;
+	bottom: 4px;
+	left: 6px;
+}
+.btn:hover {
 	color:white;
 }
 .yellow {
@@ -56,6 +88,10 @@ li {
 	color: #d33920;
 	border: 2px solid #041c38;
 	height: 30px;
+}
+.btn-yellow:hover {
+	background-color: #fdbc25 !important;
+	color: white !important;
 }
 .btn-blue {
 	background-color: #20609a;

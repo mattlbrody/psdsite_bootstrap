@@ -133,6 +133,39 @@ background-color: white;
 	margin: 0 auto;
 	height: 280px;
 }
+.blue {
+	color: #0d347f;
+}
+.circle {
+	height:70px;
+	width:70px;
+	border-radius:50%;
+	background-color:#fdbc25;
+	text-align:center;
+	line-height: 127%;
+}
+.center {
+	text-align: center;
+}
+.gray {
+	background-color: #ebedef;
+	height: 200px;
+	margin-top:50px;
+}
+#icecreamheadline {
+	margin: 20px 0px;
+}
+#yellowbutton {
+	background-color: #fdbc25;
+	color: #c62419;
+	width:250px;
+	margin-bottom:20px;
+}
+#bluebutton {
+	background-color: #1a4b87;
+	color: white;
+	width:250px;	
+}
 @media (max-width:1200px) {
 	.secondsection {
 		height: 180px;
@@ -150,17 +183,8 @@ background-color: white;
 		padding-right: 0px;
 	}
 }
-.blue {
-	color: #0d347f;
-}
-.circle {
-	height:70px;
-	width:70px;
-	border-radius:50%;
-	background-color:#fdbc25;
-	text-align:center;
-	line-height: 127%;
-}
-.center {
-	text-align: center;
+@media(max-width:780px) {
+	.gray { 
+		height: 250px;
+	}
 }

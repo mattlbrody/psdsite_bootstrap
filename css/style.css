@@ -166,6 +166,12 @@ background-color: white;
 	color: white;
 	width:250px;	
 }
+.img-responsive {
+    margin: 0 auto;
+}
+#images_height {
+	margin: 30px 0px;
+}
 @media (max-width:1200px) {
 	.secondsection {
 		height: 180px;
